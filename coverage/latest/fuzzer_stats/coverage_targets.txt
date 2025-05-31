@@ -1,0 +1,4 @@
+test_CloseMatch_append_fuzzer
+test_RewriteCommand_fuzzer
+test_Rewriter_fuzzer
+test_pkg_info_extra_fuzzer
