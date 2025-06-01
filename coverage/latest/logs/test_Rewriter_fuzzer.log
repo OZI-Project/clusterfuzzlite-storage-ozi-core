@@ -1,44 +1,28 @@
 <ozi_spec-1.0.2>/ozi_spec/python.py:104: FutureWarning: Python 3.10.14 support is pending deprecation as of 2024-10-03.
-Traceback (most recent call last):
-  File "PyInstaller/loader/pyimod03_ctypes.py", line 53, in __init__
-  File "ctypes/__init__.py", line 374, in __init__
-OSError: /lib/x86_64-linux-gnu/libc.so.6: version `GLIBC_2.33' not found (required by /tmp/_MEIgAtWoL/webui/webui-linux-clang-x64/libwebui-2.so)
-
-The above exception was the direct cause of the following exception:
-
-Traceback (most recent call last):
-  File "test_Rewriter_fuzzer.py", line 16, in <module>
-  File "<frozen importlib._bootstrap>", line 1027, in _find_and_load
-  File "<frozen importlib._bootstrap>", line 1006, in _find_and_load_unlocked
-  File "<frozen importlib._bootstrap>", line 688, in _load_unlocked
-  File "PyInstaller/loader/pyimod02_importers.py", line 450, in exec_module
-  File "<ozi_core-1.20.1.dev13+gfefbe8d>/ozi_core/fix/__init__.py", line 37, in <module>
-  File "<frozen importlib._bootstrap>", line 1027, in _find_and_load
-  File "<frozen importlib._bootstrap>", line 1006, in _find_and_load_unlocked
-  File "<frozen importlib._bootstrap>", line 688, in _load_unlocked
-  File "PyInstaller/loader/pyimod02_importers.py", line 450, in exec_module
-  File "<ozi_core-1.20.1.dev13+gfefbe8d>/ozi_core/fix/interactive.py", line 26, in <module>
-  File "<frozen importlib._bootstrap>", line 1027, in _find_and_load
-  File "<frozen importlib._bootstrap>", line 1006, in _find_and_load_unlocked
-  File "<frozen importlib._bootstrap>", line 688, in _load_unlocked
-  File "PyInstaller/loader/pyimod02_importers.py", line 450, in exec_module
-  File "<ozi_core-1.20.1.dev13+gfefbe8d>/ozi_core/new/__init__.py", line 34, in <module>
-  File "<frozen importlib._bootstrap>", line 1027, in _find_and_load
-  File "<frozen importlib._bootstrap>", line 1006, in _find_and_load_unlocked
-  File "<frozen importlib._bootstrap>", line 688, in _load_unlocked
-  File "PyInstaller/loader/pyimod02_importers.py", line 450, in exec_module
-  File "<ozi_core-1.20.1.dev13+gfefbe8d>/ozi_core/ui/web.py", line 31, in <module>
-  File "<frozen importlib._bootstrap>", line 1027, in _find_and_load
-  File "<frozen importlib._bootstrap>", line 1006, in _find_and_load_unlocked
-  File "<frozen importlib._bootstrap>", line 688, in _load_unlocked
-  File "PyInstaller/loader/pyimod02_importers.py", line 450, in exec_module
-  File "webui/webui.py", line 20, in <module>
-  File "<frozen importlib._bootstrap>", line 1027, in _find_and_load
-  File "<frozen importlib._bootstrap>", line 1006, in _find_and_load_unlocked
-  File "<frozen importlib._bootstrap>", line 688, in _load_unlocked
-  File "PyInstaller/loader/pyimod02_importers.py", line 450, in exec_module
-  File "webui/webui_bindings.py", line 18, in <module>
-  File "webui/load_library.py", line 84, in load_library
-  File "PyInstaller/loader/pyimod03_ctypes.py", line 55, in __init__
-pyimod03_ctypes.install.<locals>.PyInstallerImportError: Failed to load dynlib/dll '/tmp/_MEIgAtWoL/webui/webui-linux-clang-x64/libwebui-2.so'. Most likely this dynlib/dll was not found when the application was frozen.
-[PYI-178:ERROR] Failed to execute script 'test_Rewriter_fuzzer' due to unhandled exception!
+bash: bootstrap.sh: No such file or directory
+INFO: Using built-in libfuzzer
+WARNING: Failed to find function "__sanitizer_acquire_crash_state".
+WARNING: Failed to find function "__sanitizer_print_stack_trace".
+WARNING: Failed to find function "__sanitizer_set_death_callback".
+INFO: Running with entropic power schedule (0xFF, 100).
+INFO: Seed: 1724110515
+MERGE-OUTER: 2 files, 0 in the initial corpus, 0 processed earlier
+MERGE-OUTER: attempt 1
+<ozi_spec-1.0.2>/ozi_spec/python.py:104: FutureWarning: Python 3.10.14 support is pending deprecation as of 2024-10-03.
+bash: bootstrap.sh: No such file or directory
+INFO: Using built-in libfuzzer
+WARNING: Failed to find function "__sanitizer_acquire_crash_state".
+WARNING: Failed to find function "__sanitizer_print_stack_trace".
+WARNING: Failed to find function "__sanitizer_set_death_callback".
+INFO: Running with entropic power schedule (0xFF, 100).
+INFO: Seed: 2678838141
+INFO: -max_len is not provided; libFuzzer will not generate inputs larger than 1048576 bytes
+MERGE-INNER: using the control file '/tmp/libFuzzerTemp.Merge177.txt'
+MERGE-INNER: 2 total files; 0 processed earlier; will process 2 files now
+#1	pulse  cov: 5 ft: 5 exec/s: 0 rss: 85Mb
+#2	pulse  cov: 8 ft: 8 exec/s: 0 rss: 85Mb
+#2	DONE   cov: 8 ft: 8 exec/s: 0 rss: 85Mb
+MERGE-OUTER: successful in 1 attempt(s)
+MERGE-OUTER: the control file has 281 bytes
+MERGE-OUTER: consumed 0Mb (266Mb rss) to parse the control file
+MERGE-OUTER: 2 new files with 8 new features added; 8 new coverage edges
