@@ -4,7 +4,7 @@ WARNING: Failed to find function "__sanitizer_acquire_crash_state".
 WARNING: Failed to find function "__sanitizer_print_stack_trace".
 WARNING: Failed to find function "__sanitizer_set_death_callback".
 INFO: Running with entropic power schedule (0xFF, 100).
-INFO: Seed: 3793108752
+INFO: Seed: 3217283532
 MERGE-OUTER: 2 files, 0 in the initial corpus, 0 processed earlier
 MERGE-OUTER: attempt 1
 <ozi_spec-1.0.6>/ozi_spec/python.py:104: FutureWarning: Python 3.10.14 support is pending deprecation as of 2024-10-03.
@@ -13,9 +13,9 @@ WARNING: Failed to find function "__sanitizer_acquire_crash_state".
 WARNING: Failed to find function "__sanitizer_print_stack_trace".
 WARNING: Failed to find function "__sanitizer_set_death_callback".
 INFO: Running with entropic power schedule (0xFF, 100).
-INFO: Seed: 2607157
+INFO: Seed: 3720770387
 INFO: -max_len is not provided; libFuzzer will not generate inputs larger than 1048576 bytes
-MERGE-INNER: using the control file '/tmp/libFuzzerTemp.Merge179.txt'
+MERGE-INNER: using the control file '/tmp/libFuzzerTemp.Merge178.txt'
 MERGE-INNER: 2 total files; 0 processed earlier; will process 2 files now
 #1	pulse  cov: 5 ft: 5 exec/s: 0 rss: 59Mb
 #2	pulse  cov: 8 ft: 8 exec/s: 0 rss: 59Mb
