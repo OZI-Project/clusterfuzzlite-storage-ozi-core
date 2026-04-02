@@ -1,20 +1,24 @@
-Traceback (most recent call last):
-  File "test_CloseMatch_append_fuzzer.py", line 26, in <module>
-  File "pyimod02_importers.py", line 457, in exec_module
-  File "ozi_core/actions.py", line 21, in <module>
-  File "pyimod02_importers.py", line 457, in exec_module
-  File "niquests/__init__.py", line 74, in <module>
-  File "pyimod02_importers.py", line 457, in exec_module
-  File "niquests/api.py", line 15, in <module>
-  File "pyimod02_importers.py", line 457, in exec_module
-  File "niquests/sessions.py", line 48, in <module>
-  File "pyimod02_importers.py", line 457, in exec_module
-  File "niquests/adapters.py", line 59, in <module>
-  File "pyimod02_importers.py", line 457, in exec_module
-  File "niquests/models.py", line 36, in <module>
-  File "pyimod02_importers.py", line 457, in exec_module
-  File "charset_normalizer/__init__.py", line 26, in <module>
-  File "pyimod02_importers.py", line 457, in exec_module
-  File "charset_normalizer/api.py", line 7, in <module>
-ModuleNotFoundError: No module named '81d243bd2c585b0f4821__mypyc'
-[PYI-202:ERROR] Failed to execute script 'test_CloseMatch_append_fuzzer' due to unhandled exception!
+INFO: Using built-in libfuzzer
+WARNING: Failed to find function "__sanitizer_acquire_crash_state".
+WARNING: Failed to find function "__sanitizer_print_stack_trace".
+WARNING: Failed to find function "__sanitizer_set_death_callback".
+INFO: Running with entropic power schedule (0xFF, 100).
+INFO: Seed: 4250678964
+MERGE-OUTER: 2 files, 0 in the initial corpus, 0 processed earlier
+MERGE-OUTER: attempt 1
+INFO: Using built-in libfuzzer
+WARNING: Failed to find function "__sanitizer_acquire_crash_state".
+WARNING: Failed to find function "__sanitizer_print_stack_trace".
+WARNING: Failed to find function "__sanitizer_set_death_callback".
+INFO: Running with entropic power schedule (0xFF, 100).
+INFO: Seed: 662161532
+INFO: -max_len is not provided; libFuzzer will not generate inputs larger than 1048576 bytes
+MERGE-INNER: using the control file '/tmp/libFuzzerTemp.Merge201.txt'
+MERGE-INNER: 2 total files; 0 processed earlier; will process 2 files now
+#1	pulse  cov: 5 ft: 5 exec/s: 0 rss: 78Mb
+#2	pulse  cov: 8 ft: 8 exec/s: 0 rss: 78Mb
+#2	DONE   cov: 8 ft: 8 exec/s: 0 rss: 78Mb
+MERGE-OUTER: successful in 1 attempt(s)
+MERGE-OUTER: the control file has 299 bytes
+MERGE-OUTER: consumed 0Mb (259Mb rss) to parse the control file
+MERGE-OUTER: 2 new files with 8 new features added; 8 new coverage edges
